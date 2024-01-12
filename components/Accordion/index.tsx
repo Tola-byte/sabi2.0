@@ -22,7 +22,7 @@ const Accordion: React.FC<AccordionProps> = ({ title, children, week }) => {
             />
             <label
                 htmlFor={`toggle-${title}`}
-                className="flex justify-between items-center p-4 cursor-pointer hover:bg-gray-200 transition duration-300"
+                className="flex justify-between items-center p-4 cursor-pointer font-sora hover:bg-gray-200 transition duration-300"
             >
                 <span className='flex gap-2'>
                     <p className='text-xs md:text-lg font-semibold text-[#028D8C]'>

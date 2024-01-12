@@ -18,7 +18,7 @@ const HeroSection = () => {
             </div>
             <div className="flex flex-col justify-center mt-10 md:flex-row">
             <div className="md:w-1/2">
-                    <p className="text-3xl p-5 md:text-6xl font-extrabold md:p-10 text-[#056a68] text-center md:text-left">
+                    <p className="text-2xl p-5 md:text-6xl font-extrabold font-sora md:p-10 text-[#056a68] text-center md:text-left">
                         Get Trained to Become a World Class Developer With
                         <span className="md:px-3 text-[#d76a00]">
                             {" "}Guaranteed Paid Internship

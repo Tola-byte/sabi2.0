@@ -3,7 +3,7 @@ import { InputTypes } from "@/types"
 export const InputFields: React.FC<InputTypes> = ({title, placeholder,value, onChange}) => {
     return (
                 <div className=" w-full">
-                <label htmlFor="input" className="block text-gray-700 text-sm font-bold mb-2">{title}</label>
+                <label htmlFor="input" className="block text-gray-700 text-sm font-bold font-sora mb-2">{title}</label>
                     <input
                         type="text"
                         id="input"

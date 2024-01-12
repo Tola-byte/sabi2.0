@@ -8,7 +8,7 @@ import { AccordionData, DataCard } from "@/utils/config"
 const Curriculum = () => {
     return (
         <div className="bg-[#F5F6F7] mt-10 md:p-10">
-            <p className="text-xl md:text-4xl text-[#005B58] w-full text-center font-bold mt-5">Sabilink Foundation Class Curriculum Details</p>
+            <p className="text-xl md:text-4xl text-[#005B58] w-full text-center font-bold font-sora mt-5">Sabilink Foundation Class Curriculum Details</p>
             <div className="m-auto flex-col-reverse flex md:flex-row p-3 justify-around md:p-10">
                 <div className="flex flex-col gap-10 mb-5 ">
                     {

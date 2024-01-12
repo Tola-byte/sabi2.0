@@ -18,7 +18,8 @@ const config: Config = {
       },
 
       colors: {
-        colorone: "#FCECEC"
+        colorone: "#FCECEC",
+        colortwo: "#B9E3E1"
       }
      
     },

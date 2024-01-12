@@ -3,7 +3,7 @@ import React from 'react';
 const Select: React.FC<any> = ({ label, placeholder, options, value, onChange }) => {
     return (
         <div className="mb-4">
-            {label && <label className="block text-sm font-bold text-gray-700 pb-4">{label}</label>}
+            {label && <label className="block text-sm font-bold font-sora text-gray-700 pb-4">{label}</label>}
             <div className="relative inline-block w-full">
                 <select
                     value={value}

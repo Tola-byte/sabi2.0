@@ -33,7 +33,7 @@ const CourseSection = () => {
                             <item.Icon />
                         </span>
                         
-                        <p className="text-[#028d8c] w-full md:w-3/4 text-xl font-semibold md:font-bold">{item.title}</p>
+                        <p className="text-[#028d8c] w-full md:w-3/4 text-xl font-semibold font-sora md:font-bold">{item.title}</p>
                         <span className="flex gap-3"><LocationIcon /> {item.location}</span>
                         <p className="text-sm w-full md:w-3/4">{item.body}</p>
                         

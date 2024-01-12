@@ -8,7 +8,7 @@ export const PrimaryButton : React.FC<ButtonTypes>= ({title, isIconPresent,type,
 
           
             <div className="flex text-center p-3 gap-3 md">
-            <p className="text-white m-auto text-sm font-bold">{title}</p>
+            <p className="text-white m-auto text-sm font-sora font-bold">{title}</p>
             {
                 isIconPresent ? <ArrowRight/> : ""
             }

@@ -76,7 +76,7 @@ export const Form = () => {
             </div>
 
             <div className="flex flex-col p-5 gap-5">
-                <p className="text-md font-bold"> Batch and Session Selection</p>
+                <p className="text-md font-bold font-sora"> Batch and Session Selection</p>
                 <div className="flex flex-col gap-5">
             
                     {/* <DateComponent onDateChange={handleDateChange} /> */}
