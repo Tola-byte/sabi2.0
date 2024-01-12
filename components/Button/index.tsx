@@ -1,5 +1,5 @@
 import { ButtonTypes } from "@/types"
-import ArrowRight from "@/public/icons/ArrowRight.svg"
+import ArrowRight from "@/public/icons/arrowright.svg"
 
 export const PrimaryButton : React.FC<ButtonTypes>= ({title, isIconPresent,type,action}) => {
     return (
