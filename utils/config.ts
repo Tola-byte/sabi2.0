@@ -147,23 +147,23 @@ export const PlainCardData: PlainCardTypes[] = [
 export const DataCard = [
     {
         title: "Introduction to Programming Languages",
-        color: "text-[#028D8C]",
-        background: "bg-[#fff]",
-        text: "text-black",
+        color: "#028D8C",
+        background: "#fff",
+        text: "black",
         body: "Master the basics of programming, algorithms, and problem-solving to build a strong coding foundation."
     },
     {
         title: "Operating System - Linux and Unix",
-        color: "text-[#DFFFFF]",
-        text: "text-white",
-        background: "bg-[#061C3D]",
+        color: "#DFFFFF",
+        text: "white",
+        background: "#061C3D",
         body: "Navigate the Unix environment, delve into scripting, and gain proficiency in system administration."
     },
     {
         title: "Cloud Computing - Amazon Web Services",
-        color: "text-[#DFFFFF]",
+        color: "#DFFFFF",
         text: "text-white",
-        background: "bg-[#061C3D]",
+        background: "#061C3D",
         body: " Understand the architecture of large-scale code infrastructure and develop skills for scalable systems."
     }
 ]
@@ -195,33 +195,33 @@ export const DateData = [
 export const ColoredCardData : ColoredCardTypes[] = [
     {
         title: "Register and Pay ₦100K Registration Fee",
-        color: "text-[#892929]",
-        background: "bg-[#FCECEC]",
+        color: "#892929",
+        background: "#FCECEC",
         id: 1,
         Icon: One,
         body: "Begin your journey by registering for the Sabilink Foundation Class. Upon registration, a ₦100,000 registration fee secures your spot in the program."
     },
     {
         title: "1 Week of Training in Our Digital Hub ",
-        color: "text-[#056A68]",
-        background: "bg-[#B9E3E1]",
+        color: "#056A68",
+        background: "#B9E3E1",
         id: 2,
         Icon: Two,
         body: "Embark on a one-week training in our Digital Hub, focusing on logic and Javascript. This immersive experience sets the stage for the challenges ahead."
     },
     {
         title: "Two Assessments",
-        color: "text-[#833500]",
-        background: "bg-[#FFCD9D]",
+        color: "#833500",
+        background: "#FFCD9D",
         id: 3,
         Icon: Three,
         body: "Demonstrate your skills through two targeted assessments. These assessments ensure you're well-prepared for the Sabilink Foundation Class."
     },
     {
         title: "Successful Participants Pay ₦3,500,000 ($4000 CAD) for 1 Year Intense Training",
-        color: "text-[#DFFFFF]",
+        color: "#DFFFFF",
         Icon: Four,
-        background: "bg-[#061C3D]",
+        background: "#061C3D",
         id: 4,
         body: "Congratulations! Successful participants are invited to enroll in the intensive one- year training program.The tuition fee for this transformative journey is ₦3, 500,000(or $4000 CAD)."
     }
