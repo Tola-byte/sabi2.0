@@ -162,7 +162,7 @@ export const DataCard = [
     {
         title: "Cloud Computing - Amazon Web Services",
         color: "#DFFFFF",
-        text: "text-white",
+        text: "white",
         background: "#061C3D",
         body: " Understand the architecture of large-scale code infrastructure and develop skills for scalable systems."
     }
