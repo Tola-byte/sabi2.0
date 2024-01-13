@@ -44,10 +44,11 @@ const HeroSection = () => {
                 <div className="hidden md:block">
                     <HeroSVG />
                 </div>
-                <div className="block mt-5 md:hidden">
-                    <MobileBG/>
+                <div className="mt-5 md:hidden grid place-items-center">
+                    <span className="">
+                        <MobileBG />
+                    </span>
                 </div>
-
                 
             </div>
           
