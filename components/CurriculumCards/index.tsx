@@ -8,12 +8,12 @@ const CardCurriculum: React.FC<CurriculumCardTypes> = ({
     text
 }) => {
     return (
-        <div className={`${background} p-5 md:p-5 rounded-[20px] w-full gap-3 md:mt-3 md:w-[400px] h-fit shadow-2xl`}>
+        <div className={`p-5 md:p-5 rounded-[20px] w-full gap-3 md:mt-3 md:w-[400px] h-fit shadow-2xl`} style={{background: `${background}`}}>
             <span className="flex flex-row ">
-                <p className={`text-lg font-bold font-sora ${color} w-full md:w-5/6`}>{title}</p>
+                <p className={`text-lg font-bold font-sora w-full md:w-5/6`} style={{color: `${color}`}}>{title}</p>
             </span>
             <div className="">
-                <p className={`${text} text-[10px] w-full`}>
+                <p className={`text-[10px] w-full`} style={{color: `${text}`}}>
                     {body}
                 </p>
             </div>
